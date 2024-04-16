@@ -9,6 +9,6 @@ jobs:
 
       - name: install pytest
         run: pip install pytest
-        
+
       - name: run script python
-        run: python moyenne.py
+        run: pytest test_calculate_average.py
